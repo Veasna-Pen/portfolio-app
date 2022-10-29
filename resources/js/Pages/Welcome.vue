@@ -1,10 +1,19 @@
 <script setup>
 import { Head, Link } from '@inertiajs/inertia-vue3';
-import Frontend from '@/Layouts/Frontend.vue';
+import FrontendLayout from '@/Layouts/Frontend.vue';
+import HeroLayout from '@/Components/Frontend/Hero.vue';
 
 </script>
 
 <template>
     <Head title="Welcome" />
-    <Frontend></Frontend>
+    <FrontendLayout>
+    <!--Hero Section-->
+    <HeroLayout />
+    <!--Promote Section-->
+    <!--About Section-->
+    <!--Skill Section-->
+    <!--Portfolio-->
+    <!--Service Section-->
+    </FrontendLayout>
 </template>
