@@ -11,10 +11,10 @@ module.exports = {
     ],
 
     theme: {
-        fontFamily: {
-            primary: "Playfair Display",
-            body: "work Sans",
-        },
+        // fontFamily: {
+        //     primary: "Playfair Display",
+        //     body: "work Sans",
+        // },
         container: {
             padding: {
                 DEFAULT: "1rem",
@@ -31,6 +31,16 @@ module.exports = {
                 "dark-secondary": "#1C1D24",
                 "dark-navy-100": "#07567D",
                 "dark-navy-500": "#292D42",
+                50: "#eff6ff",
+                100: "#dbeafe",
+                200: "#bfdbfe",
+                300: "#93c5fd",
+                400: "#60a5fa",
+                500: "#3b82f6",
+                600: "#2563eb",
+                700: "#1d4ed8",
+                800: "#1e40af",
+                900: "#1e3a8a",
                 accent: {
                     DEFAULT: "#ac6b34",
                     hover: "#925a2b",

@@ -1,7 +1,9 @@
 <script setup>
 import { Head, Link } from '@inertiajs/inertia-vue3';
 import FrontendLayout from '@/Layouts/Frontend.vue';
-import HeroLayout from '@/Components/Frontend/Hero.vue';
+import Hero from '@/Components/Frontend/Hero.vue';
+import Promote from '@/Components/Frontend/Promote.vue';
+import About from '@/Components/Frontend/About.vue';
 
 </script>
 
@@ -9,9 +11,11 @@ import HeroLayout from '@/Components/Frontend/Hero.vue';
     <Head title="Welcome" />
     <FrontendLayout>
     <!--Hero Section-->
-    <HeroLayout />
+    <Hero />
     <!--Promote Section-->
+    <Promote />
     <!--About Section-->
+    <About />
     <!--Skill Section-->
     <!--Portfolio-->
     <!--Service Section-->

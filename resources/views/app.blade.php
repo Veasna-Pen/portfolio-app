@@ -15,8 +15,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
         rel="stylesheet">
-
+        <link href="{{ asset('build/assets/output.css') }}" rel="stylesheet">
     <!-- Scripts -->
+    <script src="{{ url('https://buttons.github.io/buttons.js') }}" defer></script>
+    <script src="{{ url('https://unpkg.com/flowbite@1.4.1/dist/flowbite.js') }}" defer></script>
+    
     @routes
     @vite('resources/js/app.js')
     @inertiaHead
