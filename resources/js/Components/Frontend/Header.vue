@@ -3,7 +3,7 @@
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" class="flex items-center">
-                    <img src="http://127.0.0.1:8000/storage/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                    <img src="http://127.0.0.1:8000/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Veasna</span>
                 </a>
                 
