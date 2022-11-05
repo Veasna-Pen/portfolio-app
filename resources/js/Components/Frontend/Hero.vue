@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src="http://127.0.0.1:8000/storage/images/hero.png" alt="hero image">
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="http://127.0.0.1:8000/storage/images/hero.png" alt="feature image 2">
         </div>
     </div>
 </section>
