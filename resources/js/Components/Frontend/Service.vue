@@ -1,6 +1,14 @@
 <template>
-    <section class="bg-slate-100 dark:bg-gray-900">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+    <section id="service" class="bg-slate-100 dark:bg-gray-900">
+        <div   v-motion
+    :initial="{
+      opacity: 0,
+      y: 100,
+    }"
+    :visible="{
+      opacity: 1,
+      y: 0,
+    }" class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
             <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
                 <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">What I can do for clients</h2>
                 <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">We focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>

@@ -1,6 +1,14 @@
 <template>
-    <section class="bg-gray-50 dark:bg-gray-800">
-        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-8 lg:px-12">
+    <section id="contact" class="bg-gray-50 dark:bg-gray-800">
+        <div   v-motion
+    :initial="{
+      opacity: 0,
+      y: 100,
+    }"
+    :visible="{
+      opacity: 1,
+      y: 0,
+    }" class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-8 lg:px-12">
             <!-- Row -->
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-2">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
